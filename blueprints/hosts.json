@@ -1,0 +1,22 @@
+{
+    "blueprint":"jarvis",
+    "default_password":"admin",
+    "host_groups":[
+      { 
+        "name":"host_group_1",
+        "hosts":[ { "fqdn":"master" } ] 
+      },
+      {
+        "name":"host_group_2",
+        "hosts":[ { "fqdn":"namenode" } ]
+      },
+      {
+        "name":"host_group_4",
+        "hosts":[ { "fqdn":"resourcemanager" } ]
+      },
+      {
+        "name":"host_group_3",
+        "hosts":[ {"fqdn":"node1"}, {"fqdn":"node2"}, {"fqdn":"node3"} ]
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+10.0.0.10   ambari
+10.0.0.11   namenode
+10.0.0.12   resourcemanager
+10.0.0.13   master
+10.0.0.14   node1
+10.0.0.15   node2
+10.0.0.16   node3
